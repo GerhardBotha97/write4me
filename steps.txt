@@ -1,0 +1,5 @@
+1. Place you own API token in the writer.py file.
+2. Change the tokens and temperature in the data_description and data_remediation sections to your flavour.
+3. Write your vulns in the ./input/vulns.txt file, with each vuln in a new line.
+4. Run `python3 writer.py`, you should see copy-able strings in the ./output/output_refined.txt file.
+5. The output will run like (line1= vuln1 desc, line2= vuln1 rem, line3= vuln2 decs, line4= vuln2 rem, etc.)
